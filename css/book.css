@@ -1,0 +1,21 @@
+.container {
+    text-align: center; /* Center the content inside the container */
+}
+
+.book-image {
+    border: 2px solid #ddd; /* Light grey border around the image */
+    border-radius: 8px; /* Rounded corners for the image */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for a floating effect */
+    max-width: 60%; /* Ensure the image is responsive */
+    max-height: 60%;
+    height: auto; /* Maintain aspect ratio */
+}
+
+.book-description {
+    font-size: 1.1rem; /* Slightly larger font size */
+    line-height: 1.6; /* Increase line spacing for readability */
+    margin-top: 20px; /* Add space above the paragraph */
+    color: #333; /* Dark grey color for the text */
+    max-width: 800px; /* Set a maximum width for the text */
+    margin-left: auto; /* Center the text block */
+    margin-right: auto; /* Center the text block */}

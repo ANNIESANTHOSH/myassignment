@@ -1,0 +1,68 @@
+/* General body styling */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container styling */
+.container {
+    margin-top: 50px;
+}
+
+/* Form container styling with rainbow gradient */
+.signup-form {
+    background: linear-gradient(135deg, #e17f7f, #edb077, #96966c, #95df95, #b6b6d8, #b99dcd, #a881c9);
+    background-size: 300% 300%;
+    animation: gradientShift 5s ease infinite;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    color: #fff; /* Ensure text is readable against the gradient */
+}
+
+/* Header styling */
+.signup-form h2 {
+    color: #fff; /* White color to contrast with the gradient background */
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* Form input and label styling */
+.signup-form .form-label {
+    font-size: 14px;
+    color: #fff; /* White color to contrast with the gradient background */
+}
+
+.signup-form .form-control {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for inputs */
+}
+
+/* Button styling */
+.signup-form .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.signup-form .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+/* Gradient animation */
+@keyframes gradientShift {
+    0% { background-position: 0% 0%; }
+    50% { background-position: 100% 100%; }
+    100% { background-position: 0% 0%; }
+}
